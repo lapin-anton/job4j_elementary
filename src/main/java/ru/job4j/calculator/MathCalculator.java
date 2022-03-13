@@ -10,7 +10,7 @@ public class MathCalculator {
     }
 
     public static double differenceAndDivision(double first, double second) {
-        return differenсe(first, second)
+        return differ(first, second)
                 + division(first, second);
     }
 
