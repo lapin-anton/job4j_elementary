@@ -10,6 +10,7 @@ public class TurnTest {
         int[] excepted = new int[]{5, 4, 3, 2, 1};
         Assert.assertArrayEquals(excepted, Turn.back(array));
     }
+
     @Test
     public void whenBackArrayLength10() {
         int[] array = new int[]{-5, -4, -3, -2, -1, 0, 1, 2, 3, 4, 5};
